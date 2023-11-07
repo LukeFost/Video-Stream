@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
 const fs = require("fs");
+// code comes from https://www.youtube.com/watch?v=ZjBLbXUuyWg&ab_channel=AbdisalanCodes
 
 app.get("/", function (req, res) {
   res.sendFile(__dirname + "/index.html");
